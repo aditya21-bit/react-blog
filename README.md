@@ -1,16 +1,65 @@
-# React + Vite
+# React Blog UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple blog application built using React.js as part of my MERN Stack Internship.
 
-Currently, two official plugins are available:
+The application displays blog articles related to web development topics such as React, JavaScript, CSS, HTML, and Git. Users can search for articles using the search bar and view content in a clean and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Responsive user interface
+* Search functionality for blog articles
+* Reusable React components
+* Dynamic rendering using React props
+* State management using useState
+* Blog data stored and displayed from JavaScript objects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript (ES6+)
+* CSS3
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── BlogCard.jsx
+│   └── Footer.jsx
+│
+├── data/
+│   └── posts.js
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+```
+
+## What I Learned
+
+Through this project, I learned how to:
+
+* Create reusable React components
+* Pass data using props
+* Manage user input with useState
+* Render data dynamically using map()
+* Organize a React project efficiently
+* Build responsive user interfaces
+
+## Future Improvements
+
+* Category-based filtering
+* Detailed article pages
+* Dark mode support
+* Backend integration using Node.js and Express
+
+## Author
+
+Aditya Gupta
+
+BCA (Web Technology)
+
+MERN Stack Intern
